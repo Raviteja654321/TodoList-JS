@@ -1,4 +1,4 @@
-function renderTasks(tasks, handleComplete, handleEdit, handleDelete) {
+export function renderTasks(tasks, handleComplete, handleEdit, handleDelete) {
   const taskList = document.getElementById('task-list');
   taskList.innerHTML = '';
   tasks.forEach((task, index) => {
